@@ -1,0 +1,2 @@
+teste de estado de processo: git clone
+processo=1(sucesso)
