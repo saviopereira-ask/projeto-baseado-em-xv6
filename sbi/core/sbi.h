@@ -20,6 +20,10 @@
 #define SBI_ERR_DENIED_LOCKED       -14
 
 
+#define SBI_EID_RESET 0x53525354
+#define SBI_FID_RESET  0
+#define SBI_SRST_COLD_REBOOT 0x00000001
+
 struct sbiret {
     long error;
     long value;
